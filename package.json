@@ -2,7 +2,7 @@
   "name": "daily-commit-summarizer",
   "version": "1.0.0",
   "description": "A GitHub Action that summarizes daily commits with AI and sends the report to your team via configurable webhooks.",
-  "main": "scripts/daily-summary.ts",
+  "main": "scripts/weekly-summary.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/nanbingxyz/daily-commit-summarizer/issues"
   },
-  "homepage": "https://github.com/nanbingxyz/daily-commit-summarizer#readme"
+  "homepage": "https://github.com/nanbingxyz/daily-commit-summarizer#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
 }
